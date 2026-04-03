@@ -42,4 +42,5 @@ struct WishListScreen: View {
 
 #Preview {
     WishListScreen()
+        .environment(AppRouter())
 }
